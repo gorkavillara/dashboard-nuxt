@@ -1,8 +1,8 @@
 <template>
-  <h3>Publicaciones</h3>
+  <h3>{{ $t("posts.title") }}</h3>
   <ul>
     <li v-for="post in postList" :key="post">
-      <NuxtLink :to="`/posts/${post}`"> Publicación {{ post }} </NuxtLink>
+      <NuxtLink :to="`/posts/${post}`">{{ $t("posts.post") }} {{ post }} </NuxtLink>
     </li>
   </ul>
 </template>

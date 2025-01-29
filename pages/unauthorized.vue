@@ -1,4 +1,4 @@
 <template>
-  <h1>Acceso Denegado</h1>
-  <p>No tienes permiso para acceder a esta página.</p>
+  <h1>{{ $t("unauthorized.denied") }}</h1>
+  <p>{{ $t("unauthorized.forbidden") }}</p>
 </template>

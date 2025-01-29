@@ -1,6 +1,7 @@
 import { useAuthStore } from "~/store/useAuthStore"
 
 export default defineNuxtRouteMiddleware((to) => {
+    return
     // si va a unas páginas que no requieren autenticación, adelante
     if (to.fullPath !== "/users" && to.fullPath !== "/posts") return
 

@@ -1,3 +1,3 @@
 <template>
-    <h1>Bienvenido a la home</h1>
+    <h1>{{ $t("welcome") }}</h1>
 </template>

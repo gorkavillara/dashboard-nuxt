@@ -1,0 +1,27 @@
+{
+    "welcome": "Bienvenido a la home",
+    "login": "Iniciar sesión",
+    "unauthorized": {
+        "denied": "Acceso Denegado",
+        "forbidden": "No tienes permiso para acceder a esta página."
+    },
+    "footer": "Dashboard Project - Creado con ❤️ para el curso de Vue 3 Avanzado",
+    "header": {
+        "home": "Inicio",
+        "users": "Usuarios",
+        "posts": "Publicaciones"
+    },
+    "users": {
+       "welcome": "Bienvenido a la página de Usuarios",
+       "create": "Crear usuario",
+       "form": {
+        "username-required": "El nombre es obligatorio",
+        "min-characters": "Mínimo 5 caracteres",
+        "email-format": "El email debe tener formato de email"
+       }
+    },
+    "posts": {
+        "title": "Publicaciones",
+        "post": "Publicación"
+    }
+}

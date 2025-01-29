@@ -113,7 +113,7 @@ footer p {
   }
 }
 
-.login-container {
+.login-container, .form-container {
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   padding: 2rem;
@@ -123,14 +123,14 @@ footer p {
   width: 320px;
 }
 
-.login-container h2 {
+.login-container h2, .form-container h2 {
   margin-bottom: 1rem;
   font-size: 1.8rem;
   font-weight: 700;
   color: #EAEAEA;
 }
 
-.login-container input {
+.login-container input, .form-container input {
   width: 100%;
   box-sizing: border-box;
   padding: 0.75rem;
@@ -144,17 +144,17 @@ footer p {
   transition: background 0.3s;
 }
 
-.login-container input::placeholder {
+.login-container input::placeholder, .form-container input::placeholder {
   color: rgba(255, 255, 255, 0.6);
 }
 
 /* Efecto al enfocar */
-.login-container input:focus {
+.login-container input:focus, .form-container input:focus {
   background: rgba(255, 255, 255, 0.15);
 }
 
 /* Botón de inicio de sesión */
-.login-container button {
+.login-container button, .form-container button {
   width: 100%;
   padding: 0.75rem;
   border: none;
@@ -167,13 +167,13 @@ footer p {
   transition: transform 0.2s, background 0.3s;
 }
 
-.login-container button:hover {
+.login-container button:hover, .form-container button:hover {
   transform: scale(1.05);
   background: #00B76F;
 }
 
 /* Enlace de recuperación */
-.login-container .forgot-password {
+.login-container .forgot-password, .form-container .forgot-password {
   display: block;
   margin-top: 1rem;
   font-size: 0.9rem;
@@ -181,6 +181,6 @@ footer p {
   text-decoration: none;
 }
 
-.login-container .forgot-password:hover {
+.login-container .forgot-password:hover, .form-container .forgot-password:hover {
   color: #00DC82;
 }

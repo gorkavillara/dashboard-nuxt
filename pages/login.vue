@@ -8,7 +8,7 @@
         placeholder="Contraseña"
         required
       />
-      <button type="submit">Iniciar sesión</button>
+      <button type="submit">{{ $t("login") }}</button>
     </form>
   </div>
 </template>
@@ -21,7 +21,7 @@ const login = () => {
   // aquí hacemos la lógica
   const authLogin = useAuthStore().login;
 
-  authLogin({ username: username.value });
+  authLogin({ username: username.value, email: "", id: 0 });
   return navigateTo("/users");
 };
 </script>
